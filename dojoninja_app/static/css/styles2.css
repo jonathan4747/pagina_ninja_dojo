@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: gray;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    background-color: gray;
+    color: yellow;
+    height: 30px;
+    width: 150px;
+}
+.datos{
+    background-color: aliceblue;
+    height: 30px;
+    width: 150px;
+}
+.home {
+    margin-top: 20px;
+    margin-right: 400px;
+    cursor: pointer;
+    border-style: none;
+    color: blue;
+    background-color: transparent;
+}

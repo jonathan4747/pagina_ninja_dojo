@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.create{
+    margin-top: 20px;
+}
+
+.form{
+    border: 1px solid gray;
+    width: 350px;
+    padding: 20px 0px 20px 20px;
+    color: white;
+    background-color: gray; 
+}
+.create{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: brown;
+
+}
+.listadojo{
+    border: 3px solid black;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: white;
+}
+
+.add{
+    border-style: none;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+}

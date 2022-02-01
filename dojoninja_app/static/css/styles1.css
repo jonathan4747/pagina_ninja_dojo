@@ -1,0 +1,33 @@
+.datos>div{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 10px;
+    
+}
+
+h2{
+    text-align: center;
+   
+}
+
+.datos{
+    width: 350px;
+    border: 2px solid black;
+    margin-left: 500px;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+  
+}
+.datos>button{
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+.home{
+    margin-left: 450px;
+    cursor: pointer;
+    color: blue;
+    background-color: transparent;
+    border-style: none;
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/styles2.css')}}"/>
+        <title> Lista Usuarios </title>
+    </head>
+    <body>
+        <h1>{{dojo[0]['id']}}</h1>
+        <div class="cuerpo">
+            <table>
+                <thead>
+                    <tr>
+                        <th class='menu'>First_name</th>
+                        <th class='menu'>Last_name</th>
+                        <th class='menu'>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ninjas  in dojo %}
+                        <tr>
+                            <th class='datos'>{{ninjas['first_name']}}</th>
+                            <th class='datos'>{{ninjas['last_name']}}</th>
+                            <th class='datos'>{{ninjas['age']}}</th>
+                        </tr>                    
+                    {% endfor %}
+                </tbody>
+            </table>        
+        </div>
+        <form action="/dojos" method="GET" >
+            <button type="submit" class='home'/>
+                <strong>home</strong>
+            </button>
+        </form>
+    </body>
+</html>
